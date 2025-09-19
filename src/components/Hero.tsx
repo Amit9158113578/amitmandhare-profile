@@ -21,7 +21,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden" style={{padding-top:'70px'}}>
       {/* Background gradient effect */}
       <div className="absolute inset-0 bg-gradient-glow"></div>
       
